@@ -1,0 +1,33 @@
+{
+  "name": "uikitten-popover-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eva-design/eva": "^2.0.0",
+    "@ui-kitten/components": "^5.0.0",
+    "react": ">=16.5.1",
+    "react-dom": ">=16.5.1",
+    "react-native-svg": "^12.1.0",
+    "react-native-svg-web": "^1.0.9",
+    "react-native-web": "^0.14.10",
+    "react-useportal": "^1.0.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "alias": {
+    "react-native": "react-native-web",
+    "react-native-svg": "react-native-svg-web"
+  }
+}
