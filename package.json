@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "@eva-design/eva": "^2.0.0",
     "@ui-kitten/components": "^5.0.0",
+    "parcel-bundler": "^1.12.4",
     "react": ">=16.5.1",
     "react-dom": ">=16.5.1",
     "react-native-svg": "^12.1.0",
